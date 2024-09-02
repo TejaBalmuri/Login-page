@@ -1,0 +1,67 @@
+body{
+    background:url("https://e0.pxfuel.com/wallpapers/927/594/desktop-wallpaper-rising-sun-tree-tree-top-thumbnail.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh;
+}
+.parent{
+    width:400px;
+    background:transparent;
+    backdrop-filter: blur(2px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border-radius: 10px;
+}
+.parent .login{
+    display:flex;
+    justify-content: center;
+    color:#fff;
+}
+.parent .input-box {
+    width:400px;
+    display:flex;
+    margin:15px 0; 
+}
+.input-box input{
+    width:100%;
+    border-radius: 40px;
+    height:30px;
+}
+.parent.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+}
+.rem-me a{
+    margin-left:180px;
+    font-weight: 500;
+}
+.rem-me label{
+    color:#fff;
+    font-weight: 500;
+}
+.btn button{
+    width:100%;
+    border-radius: 40px;
+    height:30px;
+    margin-top: 5px; 
+    margin-bottom:5px;
+}
+.account label{
+    font-weight: 500;
+    margin-left: 10px;
+}
+.account a{
+    font-weight:600;
+}
+button:hover{
+    background:cornflowerblue;
+    font-weight: bolder;
+}
+
